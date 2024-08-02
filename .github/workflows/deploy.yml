@@ -5,6 +5,9 @@ on:
     branches:
       - main  # or the branch you want to deploy from
 
+permissions:
+  contents: write  # Ensure the token has write permissions to the repo
+
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
