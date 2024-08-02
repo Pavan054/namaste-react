@@ -38,6 +38,8 @@
     "react-router-dom": "^6.24.0"
   },
   "browserslist": [
-    "last 2 chrome versions"
+    ">0.2%",
+    "not dead",
+    "not op_mini all"
   ]
 }
