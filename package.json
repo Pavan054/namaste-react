@@ -4,12 +4,12 @@
   "description": "This is the React App for my learning",
   "homepage": "https://Pavan054.github.io/namaste-react",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "parcel index.html",
     "build": "parcel build index.html",
     "test": "jest",
-    "watch-test": "jest --watchAll"
+    "watch-test": "jest --watchAll",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "author": "Pavan Kumar",
   "license": "ISC",
@@ -21,6 +21,7 @@
     "@testing-library/react": "^16.0.0",
     "autoprefixer": "^10.4.19",
     "babel-jest": "^29.7.0",
+    "gh-pages": "^6.1.1",
     "jest": "^29.7.0",
     "jest-environment-jsdom": "^29.7.0",
     "parcel": "^2.12.0",
