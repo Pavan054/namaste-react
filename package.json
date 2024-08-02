@@ -2,7 +2,10 @@
   "name": "namaste-react",
   "version": "1.0.0",
   "description": "This is the React App for my learning",
+  "homepage": "https://Pavan054.github.io/namaste-react",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "parcel index.html",
     "build": "parcel build index.html",
     "test": "jest",
