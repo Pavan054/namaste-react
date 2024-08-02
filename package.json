@@ -5,7 +5,7 @@
   "homepage": "https://Pavan054.github.io/namaste-react",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html --no-optimize",
+    "build": "parcel build index.html",
     "test": "jest",
     "watch-test": "jest --watchAll",
     "predeploy": "npm run build",
