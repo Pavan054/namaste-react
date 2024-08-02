@@ -1595,8 +1595,8 @@ Comprehensive testing with Jest and React Testing Library.
 - We are installing React Testing Library `@testing-library/react`.
 - We are installing `jest`.
 - Since we are using `babel` in our App. We have to install some dependencies. Check `jestjs.io/docs/getting-started`.
-- We have added `babel.config.json` file into our App as shown in the above page.
-- Since we are using `parcel`, that parcel already have its own babel configuration. So it creates a conflict with the one we have created i.e, `babel.config.json`.
+- We have added `babel.config.js` file into our App as shown in the above page.
+- Since we are using `parcel`, that parcel already have its own babel configuration. So it creates a conflict with the one we have created i.e, `babel.config.js`.
 - So, If we have to use our babel configuration we have to disable default babel transpilation.
 - For this we are configuring Parcel config file to disable default babel transpilation.
 - For configuring parcel like this, we have to go to `parceljs.org` then search for `jest` in the provided search bar choose `javascript` and follow the process under `usage with other tools` section.
